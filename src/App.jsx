@@ -339,8 +339,9 @@ function App() {
                 <Phone className="h-12 w-12 text-cyan-400 mx-auto mb-4" />
                 <CardTitle className="text-cyan-300">Telefone</CardTitle>
               </CardHeader>
-              <CardContent>
-                <p className="text-slate-300">Entre em contato para orçamentos e dúvidas</p>
+              <CardContent>               
+                <p className="text-slate-300">(11) 96903-9608</p>
+                <p className="text-slate-300">Entre via Whatsapp em contato para orçamentos e dúvidas</p>
               </CardContent>
             </Card>
 
@@ -349,7 +350,8 @@ function App() {
                 <Mail className="h-12 w-12 text-purple-400 mx-auto mb-4" />
                 <CardTitle className="text-purple-300">Email</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent>                
+                <p className="text-slate-300">renan.rfcomp@gmail.com</p>
                 <p className="text-slate-300">Envie suas especificações e receba um orçamento</p>
               </CardContent>
             </Card>
@@ -360,6 +362,7 @@ function App() {
                 <CardTitle className="text-blue-300">Localização</CardTitle>
               </CardHeader>
               <CardContent>
+                <p className="text-slate-300">Osasco, SP</p>
                 <p className="text-slate-300">Atendemos em toda a região</p>
               </CardContent>
             </Card>
